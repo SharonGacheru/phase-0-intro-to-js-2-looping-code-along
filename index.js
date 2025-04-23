@@ -1,9 +1,9 @@
 function writeCards(names, event) {
-    const messages = [];
+    const thankYouCards = [];
     for (let i = 0; i < names.length; i++) {
-      messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+      thankYouCards.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
     }
-    return messages;
+    return thankYouCards;
   }
   
   function countDown(number) {
